@@ -88,7 +88,8 @@ namespace ConsoleApplication1
 
                 var write = $"{String.Join(" ", a.Select(x => x.ToString()))}";
                 var star = $"{String.Join(" ", b.Select(x => x.ToString()))}";
-
+                
+                //Output the results
                 File.AppendAllText("C:\\Users\\marco zani\\Desktop\\log.txt", write + "     " + star + Environment.NewLine);
 
                 Console.ReadLine();
