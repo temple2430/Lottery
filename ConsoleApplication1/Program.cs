@@ -14,7 +14,7 @@ namespace ConsoleApplication1
             DateTime nextFriday = today.AddDays(daysUntilFriday);
 
            
-                // this declares an integer array with 5 elementso
+                // This  declares an integer array with 5 elements
                 int[] test2 = new int[5];
 
                 List<int> listNumbers = new List<int>();
